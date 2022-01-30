@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Document Day-11 Task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <!-- 1.Fix the bugs in below snippet -->
+  <div> guvi</div>
+  <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+  <div> Guvi Geek Network </div>
+  <br><br>
+  <!-- 2. Try the below one -->
+    <div> guvi</div>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+    <div> Guvi Geek Network </div>
+<br><br>
+  <!-- 3. Design a contact us form with all fields as required. -->
+  
+    <form action="index.html" style="width: 25%;">
+      <fieldset>
+        <legend>Contact US:</legend>
+        <div>
+          <label>First Name : </label>
+          <input type ="text" placeholder="Enter Your Name" required>
+        </div><br>
+        <div>
+          <label>Email Address : </label>
+          <input type ="email" placeholder="Enter Your Email ID" required>
+        </div><br>
+        <div>
+          <label>Phone Number :</label>
+          <input type ="number" placeholder="Enter Your Number" minlength="10" maxlength="12" required>
+        </div><br>
+        <div>
+          <button type="submit"> Submit </button>
+        </div>
+      </fieldset>
+    </form>
+<br><br>
+
+<!-- 4. Use certain HTML elements to display the following in a HTML page. -->
+
+<ul>
+  <li>Programming Language
+    <ul>
+      <li>JavaScript
+        <ol>
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue.js</li>
+        </ol>
+      </li>
+    <li>Python
+      <ol>
+        <li>Django Framework</li>
+        <li>Flask Framework</li>
+      </ol>
+    </li>
+      <li>Java
+        <ol>
+          <li>Spring</li>
+          <li>Maven</li>
+          <li>Hibernate</li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+    <li>Database
+      <ul>
+        <li>MySQL</li>
+        <li>MongoDB</li>
+        <li>Cansandra</li>
+      </ul>
+    </li>
+  </ul>
+
+  <br><br>
+
+  <!-- 5. Create an element that helps you to open the https://google.com in separate new tab. -->
+
+  <a href="https://google.com" target="_blank">Google.com</a>
+<br><br>
+  <!-- 6. In the form, add two radio buttons with grouping them for employee type(Salaried and own business) -->
+  <form>
+      <input type="radio" id="salaried" name="employee" value="1">
+      <label>Salaried</label>
+
+      <input type="radio" id="business" name="employee" value="2">
+      <label> Own business </label>
+  </form>
+  <br><br>
+
+<!-- 8. Use the table tag to design given image -->
+
+<h3 style="margin-left: 227px;">Health Chart</h3>
+
+<table style="width:40%" class="tab1">
+  <tbody>
+ 
+  <tr>
+    <th rowspan="2">State of Health </th>
+    <th colspan="2">Fasting Value </th>
+    <th>After Eating!</th>
+  </tr>
+  <tr>
+    <td>Mininum  </td>
+    <td>Maximum</td>
+    <td>less than 2hour</td>
+  </tr>
+  <tr>
+    <td>Healthy</td>
+    <td>70</td>
+    <td>100</td>
+    <td>Less than 140</td>
+  </tr>
+  <tr>
+    <td>Pre-Diabets</td>
+    <td>101</td>
+    <td>206</td>
+    <td>140 to 200</td>
+  </tr>
+  <tr>
+    <td >Diabets</td>
+    <td>More than 126</td>
+    <td>N/A</td>
+    <td> More than 200</td>
+  </tr>
+</tbody>
+</table>
+<br><br>
+<!-- 9.Write HTML input tags snippet to show default values for all Form elements. -->
+
+<form action="index.html" style="width: 25%;">
+  <fieldset>
+   
+    <div>
+      <label>First Name : </label>
+      <input type ="text" placeholder="Enter Your Name" required minlength="3">
+    </div><br>
+    <div>
+      <label>Email Address : </label>
+      <input type ="email" placeholder="Enter Your Email ID" minlength="35" required>
+    </div><br>
+    <div>
+      <label>Phone Number :</label>
+      <input type ="number" placeholder="Enter Your Number" minlength="10" maxlength="12" required>
+    </div><br>
+    <div> Gender: 
+      <input type="radio" id="Female" name="Female" value="1"><label>Female</label>
+      <input type="radio" id="Male" name="Male" value="2"><label>Male</label>
+    </div><br>
+    <div> Course:
+      <input type="checkbox" name="year" value="year" ><label>Full Stack Developer</label>
+      <input type="checkbox" name="year" value="year" ><label>Big Data </label>
+    </div><br>
+    <div>
+      <label>Choose Your Degree:</label>
+      <select >
+        <option value="select here">Select here</option>
+        <option value="b.e">B.E</option>
+        <option value="b.sc">B.sc</option>
+        <option value="others">Others</option>
+      </select>
+    </div><br>
+    <div>
+      <label>Date of Birth:</label>
+      <input type="date" name="dob">
+    </div><br>
+    <div>
+      <label>Address:</label>
+      <textarea row="5" cols="20"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.</textarea>
+    </div><br><br>
+    <div>
+      <button type="submit"> Submit </button>
+    </div>
+  </fieldset>
+</form>
+
+<br><br>
+
+<!-- 10.In your, HTML page add the below line and Highlight it without using any CSS. -->
+
+<mark> "HTML & CSS is awesome" </mark>
+
+<br><br>
+
+<!-- 11.Create an HTML page, which should contain all types of input elements. -->
+
+<form action="/index.html">
+  <input type="text" placeholder="Enter you name"> <br><br>
+  <input type="checkbox"> HTML <br><br>
+  <input type="number" placeholder="Enter your number">  <br><br>
+  <input type="password" placeholder="Enter your password"> <br><br>
+  <input type="radio"> HTML <br><br>
+  <input type="email" placeholder="Enter your Email id"><br><br>
+  <input type="file"><br><br>
+  <input type="search" placeholder="search here"><br><br>
+  <input type="submit"><br><br>
+  <input type="color"><br><br>
+  <input type="date"><br><br>
+  <input type="datetime-local"><br><br>
+  <input type="hidden"><br><br>
+  <input type="image"><br><br>
+  <input type="reset"><br><br>
+  <input type="tel" placeholder="Enter telephone number"><br><br>
+  <input type="time"><br><br>
+  </form>
+
+</body>
+</html>

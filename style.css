@@ -1,0 +1,7 @@
+
+.tab1, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 40px;
+  }
