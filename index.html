@@ -133,28 +133,27 @@
 </table>
 <br><br>
 <!-- 9.Write HTML input tags snippet to show default values for all Form elements. -->
-
 <form action="index.html" style="width: 25%;">
   <fieldset>
    
     <div>
       <label>First Name : </label>
-      <input type ="text" placeholder="Enter Your Name" required minlength="3">
+      <input type ="text" placeholder="Enter Your Name" required minlength="3" value="Kalaivani">
     </div><br>
     <div>
       <label>Email Address : </label>
-      <input type ="email" placeholder="Enter Your Email ID" minlength="35" required>
+      <input type ="email" placeholder="Enter Your Email ID" minlength="35" required value="Kalai@gmail.com">
     </div><br>
     <div>
       <label>Phone Number :</label>
-      <input type ="number" placeholder="Enter Your Number" minlength="10" maxlength="12" required>
+      <input type ="number" placeholder="Enter Your Number" minlength="10" maxlength="12" required value="9876543210">
     </div><br>
     <div> Gender: 
-      <input type="radio" id="Female" name="Female" value="1"><label>Female</label>
+      <input type="radio" id="Female" name="Female" value="1" checked><label>Female</label>
       <input type="radio" id="Male" name="Male" value="2"><label>Male</label>
     </div><br>
     <div> Course:
-      <input type="checkbox" name="year" value="year" ><label>Full Stack Developer</label>
+      <input type="checkbox" name="year" value="year" checked><label>Full Stack Developer</label>
       <input type="checkbox" name="year" value="year" ><label>Big Data </label>
     </div><br>
     <div>
@@ -162,13 +161,13 @@
       <select >
         <option value="select here">Select here</option>
         <option value="b.e">B.E</option>
-        <option value="b.sc">B.sc</option>
+        <option value="b.sc" selected>B.sc</option>
         <option value="others">Others</option>
       </select>
     </div><br>
     <div>
       <label>Date of Birth:</label>
-      <input type="date" name="dob">
+      <input type="date" name="dob" value="">
     </div><br>
     <div>
       <label>Address:</label>
@@ -179,6 +178,7 @@
     </div>
   </fieldset>
 </form>
+
 
 <br><br>
 
