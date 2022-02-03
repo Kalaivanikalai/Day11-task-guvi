@@ -8,3 +8,7 @@
 ol.alpha{
     list-style-type: lower-alpha;
   }
+
+.colors{
+  color:blue;
+}
