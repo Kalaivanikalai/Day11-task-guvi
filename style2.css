@@ -1,0 +1,58 @@
+  body{
+   margin: 0;
+   padding: 0;
+   min-width: 100%;
+   overflow-x: hidden;
+   background-color: #0a0a0a;
+ }
+ input[type="text" i] {
+  padding: 1px 2px;
+  font-style: italic;
+}
+ .box1{
+  border: 2px solid black;
+  background-color: white;
+  outline: 10px solid white ;
+  width: 400px;
+  height: 270px;
+  margin: 160px 467px;
+ }
+ .box2{
+  background-color: red;
+    font-size: 20px;
+    margin: 9px;
+    padding: 0px;   
+}
+.box3{
+  padding: 2px;
+    margin: 6px;
+    color: #fff;
+}
+.box4{
+  margin-left: 13px;
+    padding: 3px;
+}
+.box5{ float: left;}
+.box6{ float: right;}
+#border_bottom{
+  outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #0a0a0a;
+}
+.fname,.lname{
+  width: 83%;
+}
+.address{
+  width: 93%;
+}
+.city{ width: 80%; }
+.state{ width: 80%;}
+.zipcode{ width: 80%;}
+.box11{  
+  display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
